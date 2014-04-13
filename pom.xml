@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.tomecode.soa-dependency-analyzer</groupId>
+	<artifactId>soa-dependency-analyzer</artifactId>
+	<version>2.0.0</version>
+	<name>SOA-Dependency-Analyzer</name>
+	<description>SOA Dependency  Analyzer (ESB, BPEL, BPMN, ...)</description>
+	<packaging>jar</packaging>
+
+	<developers>
+		<developer>
+			<name>TomeCode</name>
+			<organization>TomeCode.com</organization>
+			<organizationUrl>http://tomecode.com/</organizationUrl>
+			<url>http://projects.tomecode.com/</url>
+		</developer>
+	</developers>
+
+	<dependencies>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity</artifactId>
+			<version>1.7</version>
+		</dependency>
+	</dependencies>
+</project>
